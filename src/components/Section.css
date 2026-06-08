@@ -1,0 +1,104 @@
+.quadro {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  background-color: #15311A;
+  width: 85%;
+  margin-top: 300px;
+  margin: 300px auto 0 auto;  /* Centraliza na horizontal */
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.flor-container {
+
+  display: flex;
+  margin-right: -100px;
+
+ 
+
+
+}
+
+
+.container {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 ;
+  margin-right: 90px;
+}
+.stat-item {
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.stat-item h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+.stat-item p {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.8;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.stat-item img {
+  margin-top: 1rem;
+  width: 120px; 
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.stat-item img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.stat-item:hover img {
+  transform: scale(1.2) translateY(-6px);
+  filter: brightness(0) saturate(100%) invert(80%) sepia(60%)
+          saturate(500%) hue-rotate(5deg) brightness(1.1);
+}
+
+
+          
+       
+
+.flor-animada {
+  width: 300px;
+  animation: vento 3s ease-in-out infinite;
+  margin-right: 50px;
+}
+
+@keyframes vento {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(8deg); }
+  75% { transform: rotate(-8deg); }
+}
+
+.quadro-completo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+
+
+
